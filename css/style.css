@@ -139,3 +139,42 @@ a:hover {
   bottom: 20px;
   right: 20px;
 }
+
+@media screen and (max-width: 992px) {
+  .language {
+    padding: var(--container-padding);
+    position: static;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+
+  .catalog-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .catalog-item-image {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .catalog-items {
+    grid-template-columns: 1fr;
+  }
+  .catalog-item-image {
+    height: 350px;
+  }
+
+  .language {
+    padding: var(--container-padding);
+    position: static;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+}
