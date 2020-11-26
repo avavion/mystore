@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "price": 0.69,
+      "qty": 100,
+      "inStock": true,
+      "category": "Fruits",
+      "image_path": "images/apple.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Carrot",
+      "price": 0.99,
+      "qty": 1000,
+      "inStock": true,
+      "category": "Vegetables",
+      "image_path": "images/carrot.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Orange",
+      "price": 1.25,
+      "qty": 0,
+      "inStock": false,
+      "category": "Fruits",
+      "image_path": "images/orange.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Pear",
+      "price": 0.9,
+      "qty": 228,
+      "inStock": true,
+      "category": "Fruits",
+      "image_path": "images/pear.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Potato",
+      "price": 0.05,
+      "qty": 10000,
+      "inStock": true,
+      "category": "Vegetables",
+      "image_path": "images/potato.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Watermelon",
+      "price": 1.99,
+      "qty": 90,
+      "inStock": true,
+      "category": "Fruits",
+      "image_path": "images/watermelon.jpg"
+    }
+  ]
+}

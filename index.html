@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>MYSTORE</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="nav header-nav">
+          <div class="nav-logo header-logo">
+            <img src="" alt="" class="nav-logo__image header-logo__image" />
+          </div>
+          <div class="nav-wrapper">
+            <ul class="list nav-list header-list">
+              <li class="list-item nav-list-item header-list-item">
+                <a
+                  href="/"
+                  class="list-item__link nav-list__link header-list__link"
+                  >Главная</a
+                >
+              </li>
+              <li class="list-item nav-list-item header-list-item">
+                <a
+                  href="/catalog.html"
+                  class="list-item__link nav-list__link header-list__link"
+                  >Каталог</a
+                >
+              </li>
+              <li class="list-item nav-list-item header-list-item">
+                <a
+                  href="/cart.html"
+                  class="list-item__link nav-list__link header-list__link"
+                  >Корзина</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="section catalog">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-header__title">Продукты</h2>
+        </div>
+        <div class="section-body">
+          <ul class="grid catalog-items">
+            <!-- BEGIN -->
+            <li class="grid-item catalog-item">
+              <div class="grid-item-image catalog-item-image">
+                <img src="assets/images/apple.jpg" alt="Apple" />
+              </div>
+              <h1 class="grid-item__title catalog-item__title">Apple</h1>
+              <p class="grid-item__text catalog-item__price">Price: 0.69$</p>
+              <a href="#" class="button button--default button-addToCart"
+                >Add To Cart</a
+              >
+            </li>
+
+            <li class="grid-item catalog-item">
+              <div class="grid-item-image catalog-item-image">
+                <img src="assets/images/carrot.jpg" alt="Carrot" />
+              </div>
+              <h1 class="grid-item__title catalog-item__title">Carrot</h1>
+              <p class="grid-item__text catalog-item__price">Price: 0.99$</p>
+              <a href="#" class="button button--default button-addToCart"
+                >Add To Cart</a
+              >
+            </li>
+
+            <li class="grid-item catalog-item">
+              <div class="grid-item-image catalog-item-image">
+                <img src="assets/images/orange.jpg" alt="Orange" />
+              </div>
+              <h1 class="grid-item__title catalog-item__title">Orange</h1>
+              <p class="grid-item__text catalog-item__price">Price: 1.69$</p>
+              <a href="#" class="button button--default button-addToCart"
+                >Add To Cart</a
+              >
+            </li>
+
+            <li class="grid-item catalog-item">
+              <div class="grid-item-image catalog-item-image">
+                <img src="assets/images/apple.jpg" alt="Apple" />
+              </div>
+              <h1 class="grid-item__title catalog-item__title">Apple</h1>
+              <p class="grid-item__text catalog-item__price">Price: 0.69$</p>
+              <a href="#" class="button button--default button-addToCart"
+                >Add To Cart</a
+              >
+            </li>
+
+            <li class="grid-item catalog-item">
+              <div class="grid-item-image catalog-item-image">
+                <img src="assets/images/carrot.jpg" alt="Carrot" />
+              </div>
+              <h1 class="grid-item__title catalog-item__title">Carrot</h1>
+              <p class="grid-item__text catalog-item__price">Price: 0.99$</p>
+              <a href="#" class="button button--default button-addToCart"
+                >Add To Cart</a
+              >
+            </li>
+
+            <li class="grid-item catalog-item">
+              <div class="grid-item-image catalog-item-image">
+                <img src="assets/images/orange.jpg" alt="Orange" />
+              </div>
+              <h1 class="grid-item__title catalog-item__title">Orange</h1>
+              <p class="grid-item__text catalog-item__price">Price: 1.69$</p>
+              <a href="#" class="button button--default button-addToCart"
+                >Add To Cart</a
+              >
+            </li>
+            <!-- END -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="language">
+      <select name="language" id="language" class="language-select">
+        <option value="RUS" data-valute="RUB" class="language-select__option">
+          RUS
+        </option>
+        <option value="ENG" data-valute="USD" class="language-select__option">
+          ENG
+        </option>
+        <option value="UKR" data-valute="UAH" class="language-select__option">
+          UKR
+        </option>
+      </select>
+    </div>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
