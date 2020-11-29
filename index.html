@@ -38,7 +38,7 @@
           <h2 class="section-header__title">Продукты</h2>
         </div>
         <div class="section-body">
-          <ul class="grid catalog-items">
+          <ul class="grid catalog-items" id="index-catalog">
             <!-- BEGIN -->
             <!-- <li class="grid-item catalog-item">
               <div class="grid-item-image catalog-item-image">
@@ -47,51 +47,6 @@
               <h1 class="grid-item__title catalog-item__title">Apple</h1>
               <p class="grid-item__text catalog-item__price">Price: 0.69$</p>
               <a href="#" class="button button--default button-addToCart">Add To Cart</a>
-            </li>
-
-            <li class="grid-item catalog-item">
-              <div class="grid-item-image catalog-item-image">
-                <img src="assets/images/carrot.jpg" alt="Carrot" />
-              </div>
-              <h1 class="grid-item__title catalog-item__title">Carrot</h1>
-              <p class="grid-item__text catalog-item__price">Price: 0.99$</p>
-              <a href="#" class="button button--default button-addToCart">Add To Cart</a>
-            </li>
-
-            <li class="grid-item catalog-item">
-              <div class="grid-item-image catalog-item-image">
-                <img src="assets/images/orange.jpg" alt="Orange" />
-              </div>
-              <h1 class="grid-item__title catalog-item__title">Orange</h1>
-              <p class="grid-item__text catalog-item__price">Price: 1.69$</p>
-              <a href="#" class="button button--default button-addToCart">Add To Cart</a>
-            </li>
-
-            <li class="grid-item catalog-item">
-              <div class="grid-item-image catalog-item-image">
-                <img src="assets/images/apple.jpg" alt="Apple" />
-              </div>
-              <h1 class="grid-item__title catalog-item__title">Apple</h1>
-              <p class="grid-item__text catalog-item__price">Price: 0.69$</p>
-              <a href="#" class="button button--default button-addToCart">Add To Cart</a>
-            </li>
-
-            <li class="grid-item catalog-item">
-              <div class="grid-item-image catalog-item-image">
-                <img src="assets/images/carrot.jpg" alt="Carrot" />
-              </div>
-              <h1 class="grid-item__title catalog-item__title">Carrot</h1>
-              <p class="grid-item__text catalog-item__price">Price: 0.99$</p>
-              <a href="#" class="button button--default button-addToCart">Add To Cart</a>
-            </li>
-
-            <li class="grid-item catalog-item">
-              <div class="grid-item-image catalog-item-image">
-                <img src="assets/images/orange.jpg" alt="Orange" />
-              </div>
-              <h1 class="grid-item__title catalog-item__title">Orange</h1>
-              <p class="grid-item__text catalog-item__price">Price: 1.69$</p>
-              <a href="#" class="button button--default button-addToCart">Add To Cart</a>
             </li> -->
             <!-- END -->
           </ul>
@@ -99,14 +54,16 @@
       </div>
     </section>
 
-    <button class="load-data">КЛИК МИИИИИИИ</button>
-
     <div class="language">
       <select name="language" id="language" class="language-select">
         <option value="RUS" data-valute="RUB" class="language-select__option">RUS</option>
         <option value="ENG" data-valute="USD" class="language-select__option">ENG</option>
         <option value="UKR" data-valute="UAH" class="language-select__option">UKR</option>
       </select>
+    </div>
+
+    <div class="loader" id="loader">
+      <h1>Загрузка...</h1>
     </div>
     <script src="scripts/app.js"></script>
   </body>
